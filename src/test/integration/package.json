@@ -4,6 +4,7 @@
   "description": "Skeleton Example",
   "scripts": {
     "clean": "rimraf ./dist",
+    "strip": "rimraf ./node_modules",
     "dev": "cross-env NODE_ENV=dev webpack-dev-server --progress --open --config webpack.dev.js",
     "dev:auto-reload": "cross-env NODE_ENV=dev-auto-reload webpack-dev-server --progress --open --config webpack.dev.js",
     "build": "cross-env NODE_ENV=production webpack --progress --config webpack.prod.js && cp -R ./src/webpage/static ./dist/",
