@@ -4,7 +4,7 @@
   "description": "skeleton",
   "main": "dist/lib.cjs.js",
   "module": "dist/lib.esm.js",
-  "typings": "./dist/typings/lib/Lib.d.ts",
+  "typings": "./dist/typings/Lib.d.ts",
   "scripts": {
     "install:integration": "cd src/test/integration && npm install",
     "clean:all": "npm-run-all clean clean:integration",
